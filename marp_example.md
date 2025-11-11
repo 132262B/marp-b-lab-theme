@@ -165,49 +165,32 @@ theme: custom-style
 
 ---
 
-<!-- j. Single Content with Image -->
-<div class="two-column">
-  <div class="left">
-    <h1>Header</h1>
+<!-- j. Image with Description - 2 Images + Text -->
+# Image with description
+
+<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 40px; margin-bottom: 40px;">
+  <div class="placeholder-small">
+    <img src="https://picsum.photos/1000/1000" width="100%" height="100%">
+  </div>
+  <div class="placeholder-small">
+    <img src="https://picsum.photos/1000/1000" width="100%" height="100%">
+  </div>
+</div>
+
+<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 80px;">
+  <div class="list-item">
+    <h3>First thing</h3>
     <p>Add a quick description of each thing, with enough context to understand what's up.</p>
   </div>
-  <div class="right">
-    <div class="placeholder"></div>
+  <div class="list-item">
+    <h3>Second thing</h3>
+    <p>Keep 'em short and sweet, so they're easy to scan and remember.</p>
   </div>
 </div>
 
 ---
 
-<!-- k. Image with Description - 2 Images + Text -->
-<div class="two-column">
-  <div class="left">
-    <h1>Image with description</h1>
-  </div>
-  <div class="right">
-    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 40px; margin-bottom: 0px;">
-      <div class="placeholder-small">
-        <img src="https://picsum.photos/1000/1000" width="100%" height="100%">
-      </div>
-      <div class="placeholder-small">
-        <img src="https://picsum.photos/1000" width="100%" height="100%">
-      </div>
-    </div>
-    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 40px;">
-      <div class="list-item">
-        <h3>First thing</h3>
-        <p>Add a quick description of each thing, with enough context to understand what's up.</p>
-      </div>
-      <div class="list-item">
-        <h3>Second thing</h3>
-        <p>Keep 'em short and sweet, so they're easy to scan and remember.</p>
-      </div>
-    </div>
-  </div>
-</div>
-
----
-
-<!-- l. Image with Description - 3 Images + Text -->
+<!-- k. Image with Description - 3 Images + Text -->
 # Image with description
 
 <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 40px; margin-bottom: 40px;">
@@ -239,7 +222,7 @@ theme: custom-style
 
 ---
 
-<!-- m. 3 Column Metrics -->
+<!-- l. 3 Column Metrics -->
 # 3 column metric
 
 <div class="grid-3col">
@@ -259,7 +242,7 @@ theme: custom-style
 
 ---
 
-<!-- n. Metrics Grid -->
+<!-- m. Metrics Grid -->
 <div class="container">
   <div class="left-col">
     <h2>Metrics</h2>
@@ -287,7 +270,7 @@ theme: custom-style
 
 ---
 
-<!-- o. Quote -->
+<!-- n. Quote -->
 <!-- _class: center -->
 <div class="quote">
   <div class="avatar"></div>
