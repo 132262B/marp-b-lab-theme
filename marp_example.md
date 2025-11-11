@@ -22,7 +22,9 @@ theme: custom-style
     <p>Add a quick description of each thing, with enough context to understand what's up.</p>
   </div>
   <div class="right">
-    <div class="placeholder"></div>
+    <div class="placeholder">
+      <img src="https://picsum.photos/500/500?random=1" alt="Image">
+    </div>
   </div>
 </div>
 
@@ -179,8 +181,12 @@ theme: custom-style
 
   <div class="section-content">
     <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 40px; margin-bottom: 40px;">
-      <div class="placeholder-small"></div>
-      <div class="placeholder-small"></div>
+      <div class="placeholder-small">
+        <img src="https://picsum.photos/500/500?random=2" alt="Image">
+      </div>
+      <div class="placeholder-small">
+        <img src="https://picsum.photos/500/500?random=3" alt="Image">
+      </div>
     </div>
     <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 80px;">
       <div class="list-item">
@@ -203,9 +209,15 @@ theme: custom-style
 
   <div class="section-content">
     <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 40px; margin-bottom: 40px;">
-      <div class="placeholder-small"></div>
-      <div class="placeholder-small"></div>
-      <div class="placeholder-small"></div>
+      <div class="placeholder-small">
+        <img src="https://picsum.photos/500/500?random=4" alt="Image">
+      </div>
+      <div class="placeholder-small">
+        <img src="https://picsum.photos/500/500?random=5" alt="Image">
+      </div>
+      <div class="placeholder-small">
+        <img src="https://picsum.photos/500/500?random=6" alt="Image">
+      </div>
     </div>
     <div class="grid-3col">
       <div class="list-item">
