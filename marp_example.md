@@ -23,7 +23,7 @@ theme: custom-style
   </div>
   <div class="right">
     <div class="placeholder">
-      <img src="https://picsum.photos/300/250">
+      <img src="https://picsum.photos/1000/1000" width="100%" height="100%">
     </div>
   </div>
 </div>
@@ -37,6 +37,7 @@ theme: custom-style
   </div>
   <div class="right">
     <p>Use this slide to highlight a single, important thing. To keep it short and sweet, you might link away to relevant doc or file.</p>
+    
   </div>
 </div>
 
@@ -150,9 +151,13 @@ theme: custom-style
     <h1>Image with description</h1>
   </div>
   <div class="right">
-    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 40px; margin-bottom: 40px;">
-      <div class="placeholder-small"></div>
-      <div class="placeholder-small"></div>
+    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 40px; margin-bottom: 0px;">
+      <div class="placeholder-small">
+        <img src="https://picsum.photos/1000/1000" width="100%" height="100%">
+      </div>
+      <div class="placeholder-small">
+        <img src="https://picsum.photos/1000" width="100%" height="100%">
+      </div>
     </div>
     <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 40px;">
       <div class="list-item">
@@ -173,9 +178,15 @@ theme: custom-style
 # Image with description
 
 <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 40px; margin-bottom: 40px;">
-  <div class="placeholder-small"></div>
-  <div class="placeholder-small"></div>
-  <div class="placeholder-small"></div>
+  <div class="placeholder-small">
+    <img src="https://picsum.photos/1000/1000" width="100%" height="100%">
+  </div>
+  <div class="placeholder-small">
+    <img src="https://picsum.photos/1000/1000" width="100%" height="100%">
+  </div>
+  <div class="placeholder-small">
+    <img src="https://picsum.photos/1000/1000" width="100%" height="100%">
+  </div>
 </div>
 
 <div class="grid-3col">
