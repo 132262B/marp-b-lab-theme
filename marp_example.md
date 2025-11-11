@@ -180,7 +180,7 @@ theme: custom-style
   <h1 class="section-title">Image with description</h1>
 
   <div class="section-content">
-    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 40px; margin-bottom: 40px;">
+    <div class="image-grid-2">
       <div class="placeholder-small">
         <img src="https://picsum.photos/500/500?random=2" alt="Image">
       </div>
@@ -188,7 +188,7 @@ theme: custom-style
         <img src="https://picsum.photos/500/500?random=3" alt="Image">
       </div>
     </div>
-    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 80px;">
+    <div class="text-grid-2">
       <div class="list-item">
         <h3>First thing</h3>
         <p>Add a quick description of each thing, with enough context to understand what's up.</p>
@@ -208,7 +208,7 @@ theme: custom-style
   <h1 class="section-title">Image with description</h1>
 
   <div class="section-content">
-    <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 40px; margin-bottom: 40px;">
+    <div class="image-grid-3">
       <div class="placeholder-small">
         <img src="https://picsum.photos/500/500?random=4" alt="Image">
       </div>

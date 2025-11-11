@@ -220,6 +220,29 @@ section.center {
   object-fit: cover;
 }
 
+/* 이미지 그리드 - 2열 */
+.image-grid-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  margin-bottom: 40px;
+}
+
+/* 이미지 그리드 - 3열 */
+.image-grid-3 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+  margin-bottom: 40px;
+}
+
+/* 텍스트 그리드 - 2열 (넓은 간격) */
+.text-grid-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 80px;
+}
+
 /* 세로 리스트 */
 .list-vertical {
   display: flex;
